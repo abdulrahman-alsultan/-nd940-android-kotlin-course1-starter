@@ -32,8 +32,6 @@ class Login : Fragment() {
 
         act.toolbar.title = "Login/Create account"
 
-        act.toolbar.title = "Instruction"
-
         val backButton = object : OnBackPressedCallback(true){
             override fun handleOnBackPressed() {
                 activity?.finish()

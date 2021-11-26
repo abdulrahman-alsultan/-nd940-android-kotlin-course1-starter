@@ -2,8 +2,10 @@ package com.udacity.shoestore.fragments
 
 import android.os.Bundle
 import android.view.*
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
+import androidx.core.view.marginTop
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -57,9 +59,18 @@ class ShoeList : Fragment() {
 
         myViewModel.getShoeList().observe(viewLifecycleOwner, Observer { shoes ->
             for (s in shoes) {
-                val txtView = TextView(requireContext())
-                txtView.text = s.name
-                binding.llShoeListDisplayList.addView(txtView)
+                val ll = LayoutInflater.from(requireContext()).inflate(R.layout.shoe_item, binding.llShoeListDisplayList, false)
+
+                val name = ll.findViewById<TextView>(R.id.tv_item_name)
+                val size = ll.findViewById<TextView>(R.id.tv_item_size)
+                val company = ll.findViewById<TextView>(R.id.tv_item_company)
+                val description = ll.findViewById<TextView>(R.id.tv_item_description)
+
+                name.text = s.name
+                size.text = "Size: ${s.size}"
+                company.text = "Company: ${s.company}"
+                description.text = "Description: ${s.description}"
+                binding.llShoeListDisplayList.addView(ll)
             }
         })
 
