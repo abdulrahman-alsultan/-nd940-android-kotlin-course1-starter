@@ -16,4 +16,26 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Header">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="info">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+
+    <style name="buttonStyle">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>

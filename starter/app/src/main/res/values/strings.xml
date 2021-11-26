@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="welcome_to_shoe_store">Welcome to Shoe Store</string>
+    <string name="navigate">Navigate</string>
+    <string name="click_the_button_to_read_introductions">Click the button to read introductions</string>
+    <string name="instructions">Instructions</string>
+    <string name="you_can_add_new_shoe_from_floating_action_button">1. You can add new shoe from floating action button</string>
+    <string name="go_to_app">Go to app</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_shoe">Add Shoe</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="shoe_company">Shoe company</string>
+    <string name="shoe_description">Shoe description</string>
+    <string name="logout">logout</string>
 </resources>

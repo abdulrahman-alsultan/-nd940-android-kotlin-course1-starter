@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.Instruction">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/tv_instruction_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            style="@style/Header"
+            />
+
+        <TextView
+            android:id="@+id/tv_instruction_someInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_can_add_new_shoe_from_floating_action_button"
+            style="@style/info"
+            android:layout_below="@+id/tv_instruction_instruction"
+            />
+
+        <Button
+            android:id="@+id/btn_instruction_openApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_instruction_someInstruction"
+            style="@style/buttonStyle"
+            android:text="@string/go_to_app"
+            />
+
+
+    </RelativeLayout>
+
+</layout>
