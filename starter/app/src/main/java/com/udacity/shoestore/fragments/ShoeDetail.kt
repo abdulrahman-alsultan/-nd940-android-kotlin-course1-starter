@@ -1,7 +1,6 @@
 package com.udacity.shoestore.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import android.widget.Toast
@@ -11,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.MainActivity
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoeDetailBinding
-import com.udacity.shoestore.models.MyViewModel
+import com.udacity.shoestore.ViewModel.MyViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class ShoeDetail : Fragment() {

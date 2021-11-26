@@ -12,7 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.MainActivity
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
-import com.udacity.shoestore.models.MyViewModel
+import com.udacity.shoestore.ViewModel.MyViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 
